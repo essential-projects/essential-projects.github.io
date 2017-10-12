@@ -1,0 +1,253 @@
+body {
+  background-color: #ffffff;
+}
+
+img{
+  border: 0;
+}
+
+.padding-b-30 {
+  padding-bottom: 30px;
+}
+
+.padding-tb-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.tinted-container{
+  background-color: #e2f4fb;
+}
+
+.impressum-container{
+  background-color:white;
+  text-align: center;
+}
+
+.link-logo{
+  color: #8e949a;
+  text-align: center;
+  display: block;
+}
+
+.process-engine-logo{
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.white-container{
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+
+.logo{
+  max-width: 70%;
+  height: 140px;
+  display: block;
+  margin: auto;
+}
+
+.links-wrapper-desktop{
+  display: none;
+}
+
+.links-wrapper-tablet{
+  display: none;
+}
+
+.links-wrapper-phone{
+  display: none;
+}
+
+
+/* ---------- Desktop PC ----------*/
+@media only screen and (min-width: 1200px) {
+  .links-wrapper-desktop{
+    display: block;
+  }
+
+  .header-image {
+    background: url(images/background_blue.jpg);
+    background-color: #fff;
+    background-size: cover;
+  }
+
+  .slogan {
+    color: #8e959a;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .title-logo {
+    margin: auto;
+    display: block;
+    width: 700px;
+    height: auto;
+  }
+
+  .banner-text{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .title-text{
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .section-header-red{
+    background: url(images/section_header_red.jpg);
+    background-size: 1920px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+  }
+
+  .footer-blue{
+    background: url(images/footer_blue.jpg);
+    background-size: 1920px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+  }
+
+  .process-engine-text {
+    padding-top: 25px;
+  }
+
+  .quantus-flow-logo {
+    height: 120px;
+    padding-top: 10px;
+    max-width: 70%;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* ---------- Tablet ----------*/
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1199px) {
+  .links-wrapper-tablet{
+    display: block;
+  }
+
+  .header-image {
+    background: url(images/background_blue.jpg);
+    background-color: #fff;
+    background-size: cover;
+  }
+
+  .slogan {
+    color: #8e959a;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .title-logo {
+    margin: auto;
+    display: block;
+    width: 450px;
+    height: auto;
+  }
+
+  .banner-text{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .title-text{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .section-header-red{
+    background: url(images/section_header_red.jpg);
+    background-size: 1500px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+  }
+
+  .footer-blue{
+    background: url(images/footer_blue.jpg);
+    background-size: 1650px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+  }
+
+  .process-engine-text {
+    padding-top: 15px;
+  }
+
+  .quantus-flow-logo {
+    height: 110px;
+    padding-top: 20px;
+    max-width: 70%;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* ---------- Phone ----------*/
+@media only screen and (max-width: 767px) {
+  .links-wrapper-phone{
+    display: block;
+  }
+
+  .header-image {
+    background: url(images/background_blue.jpg);
+    background-color: #fff;
+    background-size: cover;
+  }
+
+  .slogan {
+    color: #8e959a;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .title-logo {
+    margin: auto;
+    display: block;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .banner-text{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .title-text{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .section-header-red{
+    background: url(images/section_header_red.jpg);
+    background-size: 1400px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+  }
+
+  .footer-blue{
+    background: url(images/footer_blue.jpg);
+    background-size: 1400px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+  }
+
+  .process-engine-text {
+    padding-top: 25px;
+  }
+
+  .quantus-flow-logo {
+    height: 130px;
+    padding-top: 10px;
+    max-width: 70%;
+    display: block;
+    margin: auto;
+  }
+}
