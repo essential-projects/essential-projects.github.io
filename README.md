@@ -1,1 +1,1 @@
-# essential-projects.github.io
+# essential-projects.org Landingpage
