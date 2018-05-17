@@ -60,6 +60,20 @@ img{
   display: none;
 }
 
+.link-break {
+word-break: break-all;
+}
+
+.data-privacy-headline {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.imprint-headline {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
 
 /* ---------- Desktop PC ----------*/
 @media only screen and (min-width: 1200px) {
